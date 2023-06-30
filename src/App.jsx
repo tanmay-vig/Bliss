@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar'
+import Navbar from './components/Navi'
 import Hero from './components/Hero'
 import Products from './components/Products'
 import Reviews from './components/Reviews'
