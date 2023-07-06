@@ -1,0 +1,26 @@
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 200px;
+    width: 200px;
+    outline: black;
+    background-color: orange;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.carousel-caption{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    text-align: left;
+}
+.carousel-indicators {
+    background-color: orange;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+@media (max-width : 600px)
+{
+    .carousel-caption h1{
+        font-size: 15px;
+    }
+}

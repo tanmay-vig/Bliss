@@ -6,7 +6,7 @@ export default function Prenavi() {
     <>
       <Container>
         <img src={Bliss} alt="bliss" className='logo'/>
-        <div className='d-inline mx-5'>Request a quote</div>
+        <div className='d-inline mx-4 text-nowrap'>Request a quote</div>
       </Container>
     </>
   )
