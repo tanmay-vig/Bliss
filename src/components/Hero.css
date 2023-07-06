@@ -7,7 +7,7 @@
     border-radius: 50%;
     border: 2px solid white;
 }
-.carousel-caption{
+.carousel-caption1{
     position: absolute;
     top: 15%;
     left: 15%;
@@ -20,7 +20,7 @@
 }
 @media (max-width : 600px)
 {
-    .carousel-caption h1{
+    .carousel-caption1 h1{
         font-size: 15px;
     }
 }
