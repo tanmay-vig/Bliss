@@ -5,7 +5,7 @@ import pic2 from '../assets2/asset 2.jpeg'
 import pic4 from '../assets2/asset 4.jpeg'
 export default function Hero() {
   return (
-    <><Carousel>
+    <><Carousel variant='dark'>
     <Carousel.Item>
       <img
         className="d-block w-100"
