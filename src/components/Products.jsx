@@ -1,54 +1,52 @@
-import './Products.css'
-import Desktop from '../assets/desktop.jpg'
-import Design from '../assets/dp.jpg'
-import Seo from'../assets/seo.jpg'
-import Wifi from '../assets/wifi routers.jpg'
-import Servers from '../assets/server.jpeg'
-import Marketing from '../assets/marketing.jpg'
-import Mobile from '../assets/mobile sets.jpg'
-import Laptop from '../assets/laptop.jpg'
+import "./Products.css";
+import Desktop from "../assets/desktop.jpg";
+import Design from "../assets/dp.jpg";
+import Seo from "../assets/seo.jpg";
+import Wifi from "../assets/wifi routers.jpg";
+import Servers from "../assets/server.jpeg";
+import Marketing from "../assets/marketing.jpg";
+import Mobile from "../assets/mobile sets.jpg";
+import Laptop from "../assets/laptop.jpg";
 export default function Products() {
-  return (
-    <>
-    <h3 className="products">
-      OUR PRODUCTS:
-    </h3>
-    <div className="flex flex-row">
-      <div className="flex flex-col bg-slate-200">
-        <img src={Desktop} alt="desktop"  height={200} width={300}/>
-        <div>Desktop</div>
-      </div>
-      <div className="flex flex-col bg-slate-200">
-        <img src={Laptop} alt="laptop"  height={200} width={300}/>
-        <div>Laptop</div>
-      </div>
-      <div className="flex flex-col bg-slate-200">
-        <img src={Wifi} alt="wifi routers" height={200} width={300} />
-        <div>Wifi Routers</div>
-      </div>
-      <div className="flex flex-col bg-slate-200">
-        <img src={Mobile} alt="Mobile Sets"  height={200} width={300}/>
-        <div>Mobile Sets</div>
-      </div>
-    </div>
-    <div className="flex flex-row">
-      <div className="flex flex-col bg-slate-200">
-        <img src={Seo} alt="seo"  height={200} width={300}/>
-        <div>Seo</div>
-      </div>
-      <div className="flex flex-col bg-slate-200">
-        <img src={Marketing} alt="marketing"  height={200} width={300}/>
-        <div>Marketing</div>
-      </div>
-      <div className="flex flex-col bg-slate-200">
-        <img src={Design} alt="design" height={200} width={300} />
-        <div>Design</div>
-      </div>
-      <div className="flex flex-col">
-        <img src={Servers} alt="servers"  height={200} width={300}/>
-        <div>Servers</div>
-      </div>
-    </div>
-    </>
-  )
+    return (
+        <>
+            <h4 className=" text-center m-5">OUR PRODUCTS:</h4>
+            <div className="container">
+                <div className="products">
+                    <img src={Desktop} alt="desktop" />
+                    <h4 className="text-center">Desktop</h4>
+                </div>
+                <div className="products">
+                    <img src={Laptop} alt="laptop" />
+                    <h4 className="text-center">Laptop</h4>
+                </div>
+                <div className="products">
+                <img src={Wifi} alt="wifi-router" />
+                <h4 className="text-center">Wifi Routers</h4>
+            </div>
+            <div className="products">
+                <img src={Mobile} alt="Mobile" />
+                <h4 className="text-center">Mobile Sets</h4>
+            </div>
+            </div>
+            <div className="container">
+            <div className="products">
+                <img src={Design} alt="design" />
+                <h4 className="text-center">Design Package</h4>
+            </div>
+            <div className="products">
+                <img src={Marketing} alt="Marketing" />
+                <h4 className="text-center">Marketing</h4>
+            </div>
+            <div className="products">
+                <img src={Seo} alt="Seo" />
+                <h4 className="text-center">Seo</h4>
+            </div>
+            <div className="products">
+                <img src={Servers} alt="Servers" />
+                <h4 className="text-center">Servers</h4>
+            </div>
+            </div>
+        </>
+    );
 }
