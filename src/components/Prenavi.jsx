@@ -6,7 +6,8 @@ export default function Prenavi() {
     <>
       <Container>
         <img src={Bliss} alt="bliss" className='logo'/>
-        <div className='d-inline mx-4 text-nowrap'>Request a quote</div>
+        <a href="https://wa.me/9212697071" className='request'>
+          Request a quote</a>
       </Container>
     </>
   )
