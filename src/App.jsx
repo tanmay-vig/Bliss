@@ -1,13 +1,9 @@
 import Navi from './components/Navi'
-import Hero from './components/Hero'
-import Products from './components/Products'
-import Reviews from './components/Reviews'
 import Footer from './components/Footer'
 import Prenavi from './components/Prenavi'
-import Choosing from './components/Choosing'
-import Rent from './components/Rent'
-import Highlights from './components/Highlights'
-import Clients from './components/Clients'
+import Home from './pages/Home'
+import About from './pages/About'
+import { Route , Routes } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,13 +15,10 @@ function App() {
     <>
     <Prenavi />
     <Navi />
-    <Hero />
-    <Products />
-    <Choosing />
-    <Rent />
-    <Highlights />
-    <Clients />
-    <Reviews />
+    <Routes>
+    <Route path='/' element={ <Home />} />
+    <Route path='/about' element = { <About />} />
+    </Routes>
     <Footer />
     </>
   )

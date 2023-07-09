@@ -1,6 +1,6 @@
 import {Navbar , Container , Nav , NavDropdown} from 'react-bootstrap'
-
-
+import './navi.css'
+import {Link} from 'react-router-dom'
 export default function Navi() {
   return (
     <>
@@ -8,8 +8,12 @@ export default function Navi() {
     <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav.Link href="#home" className='mx-5'>Home</Nav.Link>
-        <Nav.Link href="#About" className='mx-5'>About Us</Nav.Link>
+        <Nav className="mx-5">
+          <Link to="/"  className="links">Home</Link>
+        </Nav>
+        <Nav className="mx-5">
+          <Link  to="/about"  className="links">About Us</Link>
+          </Nav>
         <NavDropdown title="Products" id="basic-nav-dropdown" className='mx-5'>
           <NavDropdown.Item>Desktops</NavDropdown.Item>
           <NavDropdown.Item>Servers</NavDropdown.Item>
@@ -20,9 +24,11 @@ export default function Navi() {
           <NavDropdown.Item>Mobile Sets</NavDropdown.Item>
           <NavDropdown.Item>Wifi Routers</NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="#link" className='mx-5'>CSR</Nav.Link>
+        <Nav className="mx-5">
+          <Link to="/csr" className='links'>CSR</Link></Nav>
         <Nav.Link href="https://wa.me/9212697071" className='mx-5'>Contact Us</Nav.Link>
-        <Nav.Link href="#link" className='mx-5'>Blog</Nav.Link>
+        <Nav className="mx-5">
+          <Link to="/err" className='links'>Blog</Link></Nav>
         </Navbar.Collapse>
     </Container>
     </Navbar>
