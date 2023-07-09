@@ -6,7 +6,7 @@ import pic4 from '../assets2/rent4.png'
 
 export default function Rent() {
   return (
-    <> <br />
+    <section className='rent'> <br />
     <h2 className="text-center">How To Rent Your Equipment?</h2>
     <p className='text-center'> We are a professionally managed organization providing affordable 
     IT rental services across India. We provide top-quality rental solutions for all IT equipment 
@@ -44,6 +44,6 @@ export default function Rent() {
               and we are commited to resolve them at the earliest.</p>
         </div>
       </div>
-    </>
+    </section>
   )
 }

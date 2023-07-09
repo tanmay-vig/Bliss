@@ -1,0 +1,21 @@
+
+.ch2{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    padding : 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.box2{
+    display: flex;
+    margin: 5px;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.ch2 img{
+    height: 100px;
+    width: 100%;
+}

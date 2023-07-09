@@ -9,7 +9,7 @@ import Mobile from "../assets/mobile sets.jpg";
 import Laptop from "../assets/laptop.jpg";
 export default function Products() {
     return (
-        <>
+        <section className="products-section">
             <h2 className=" text-center m-5">OUR PRODUCTS:</h2>
             <div className="container">
                 <div className="products">
@@ -47,6 +47,6 @@ export default function Products() {
                 <h4 className="text-center">Servers</h4>
             </div>
             </div>
-        </>
+        </section>
     );
 }
