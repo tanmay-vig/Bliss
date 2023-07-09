@@ -1,0 +1,26 @@
+.footer{
+    background-color: black;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.o{
+    color: #f58634;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.g{
+    color: gray;
+}
+@media (max-width : 800px)
+{
+    .footer-container{
+        flex-direction: column;
+    }
+}
