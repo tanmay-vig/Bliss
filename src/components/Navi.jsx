@@ -28,7 +28,7 @@ export default function Navi() {
           <Link to="/csr" className='links'>CSR</Link></Nav>
         <Nav.Link href="https://wa.me/9212697071" className='mx-5'>Contact Us</Nav.Link>
         <Nav className="mx-5">
-          <Link to="/err" className='links'>Blog</Link></Nav>
+          <Link to="/blog" className='links'>Blog</Link></Nav>
         </Navbar.Collapse>
     </Container>
     </Navbar>

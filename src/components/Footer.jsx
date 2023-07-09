@@ -1,6 +1,7 @@
 
 import pic1 from '../assets/logo.jpg'
 import './footer.css'
+import {Link} from 'react-router-dom'
 export default function Footer() {
   return (
     <> <br />
@@ -22,12 +23,24 @@ export default function Footer() {
         <div className="f">
           <div className="o">Quick Links</div>
           <ul className='g'>
-            <li>CSR</li>
-            <li>Blog</li>
-            <li>FAQ</li>
-            <li>Sustainability</li>
-            <li>Terms of Use</li>
-            <li>Policies</li>
+            <li>
+              <Link to="/csr">CSR</Link></li>
+            <li>
+              <Link to="/blog">Blog
+              </Link>
+              </li>
+            <li>
+              <Link to="/faq">FAQ</Link>
+            </li>
+            <li>
+              <Link to="/sustainibilty">Sustainability</Link>
+              </li>
+            <li>
+            <Link to="/terms">Terms of Use</Link>
+            </li>
+            <li>
+            <Link to="/policies">Policies</Link>
+            </li>
           </ul>
         </div>
         < div className="f">
