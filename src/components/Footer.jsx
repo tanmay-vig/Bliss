@@ -30,8 +30,20 @@ export default function Footer() {
             <li>Policies</li>
           </ul>
         </div>
-        <div className="f">
+        < div className="f">
           <div className="o">Get in Touch</div>
+          <div className="g">
+            <i className='fa-solid fa-phone'>+91999999999</i>
+          </div>
+          <div className="g">
+            <i className='fa-solid fa-envelope'>abc@mail</i>
+          </div>
+          <div className="flex">
+          <a href="" className='fa-brands fa-instagram r'></a>
+          <a href="" className='fa-brands fa-facebook r'></a>
+          <a href="" className='fa-brands fa-twitter r'></a>
+          <a href="" className='fa-brands fa-linkedin r'></a>
+          </div>
         </div>
       </div>
     </section>

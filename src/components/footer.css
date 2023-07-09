@@ -18,6 +18,11 @@
 .g{
     color: gray;
 }
+.r{
+    text-decoration: none;
+    color: gray;
+    margin: 3px;
+}
 @media (max-width : 800px)
 {
     .footer-container{
