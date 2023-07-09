@@ -1,6 +1,5 @@
 .client-image{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 .client-image img{
@@ -10,12 +9,11 @@
 }
 .clients{
     background-color: #f0fde3;
-    width: 100%;
+    width : 100%;
 }
 @media (max-width : 800px)
 {
-    .client-image img{
-        height: 150px;
-        width: 300px;
+    .client-image{
+        flex-direction: column;
     }
 }

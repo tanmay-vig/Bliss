@@ -1,5 +1,7 @@
 .products-section{
     background-color:  #f0fde3;
+    width : 100%;
+
 }
 .products{
     display: flex;
