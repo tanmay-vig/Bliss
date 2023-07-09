@@ -24,22 +24,22 @@ export default function Footer() {
           <div className="o">Quick Links</div>
           <ul className='g'>
             <li>
-              <Link to="/csr">CSR</Link></li>
+              <Link to="/csr" className='g'>CSR</Link></li>
             <li>
-              <Link to="/blog">Blog
+              <Link to="/blog" className='g'>Blog
               </Link>
               </li>
             <li>
-              <Link to="/faq">FAQ</Link>
+              <Link to="/faq" className='g'>FAQ</Link>
             </li>
             <li>
-              <Link to="/sustainibilty">Sustainability</Link>
+              <Link to="/sustainibilty" className='g'>Sustainability</Link>
               </li>
             <li>
-            <Link to="/terms">Terms of Use</Link>
+            <Link to="/terms" className='g'>Terms of Use</Link>
             </li>
             <li>
-            <Link to="/policies">Policies</Link>
+            <Link to="/policies" className='g'>Policies</Link>
             </li>
           </ul>
         </div>
