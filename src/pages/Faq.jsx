@@ -2,8 +2,8 @@
 
 export default function Faq() {
   return (
-    <div>
-      Under development............
-    </div>
+    <> <br />
+      <h2 className="text-center">Frequently Asked Questions</h2>
+    </>
   )
 }
