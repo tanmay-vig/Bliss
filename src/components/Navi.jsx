@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 export default function Navi() {
   return (
     <>
-    <Navbar expand="lg" className='border-top'> 
+    <Navbar expand="lg" className='n'> 
     <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -14,7 +14,7 @@ export default function Navi() {
         <Nav className="mx-5">
           <Link  to="/about"  className="links">About Us</Link>
           </Nav>
-        <NavDropdown title="Products" id="basic-nav-dropdown" className='mx-5'>
+        <NavDropdown title="Products" id="basic-nav-dropdown" className='mx-5 links'>
           <NavDropdown.Item>Desktops</NavDropdown.Item>
           <NavDropdown.Item>Servers</NavDropdown.Item>
           <NavDropdown.Item>Laptops</NavDropdown.Item>
