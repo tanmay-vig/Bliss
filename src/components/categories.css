@@ -1,0 +1,18 @@
+.categories{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.r{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px;
+}
+@media (max-width:800px)
+{
+    
+}
