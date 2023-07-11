@@ -7,10 +7,24 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.r{
+.r1{
     display: flex;
     flex-direction: column;
     margin: 0px 40px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border: 1px solid rgb(231, 126, 6);
+    border-radius: 20px;
+    
+}
+.r1 div{
+    border-top: 1px solid rgb(231, 126, 6);
+}
+.r1 img{
+    height: 70px;
+    margin: 10px 30px;
+    
 }
 @media (max-width:800px)
 {
