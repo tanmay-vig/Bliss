@@ -13,36 +13,37 @@ export default function Footer() {
         </div>
         <div className="f">
           <div className="o">Our Products</div>
-          <ul className='g'>
-            <li>Desktops</li>
-            <li>Laptops</li>
-            <li>Mobile Sets</li>
-            <li>Servers</li>
-          </ul>
+          <div>
+            <div className='g'>&gt;	Desktops</div>
+            <div className='g'>&gt;	Laptops</div>
+            <div className='g'>&gt;	Mobile Sets</div>
+            <div className='g'>&gt;	Servers</div>
+          </div>
+          
         </div>
         <div className="f">
           <div className="o">Quick Links</div>
-          <ul className='g'>
-            <li>
-              <Link to="/csr" className='g'>CSR</Link></li>
-            <li>
-              <Link to="/blog" className='g'>Blog
+          
+            
+              <Link to="/csr" className='g'> &gt;	CSR</Link>
+            
+              <Link to="/blog" className='g'> &gt;	Blog
               </Link>
-              </li>
-            <li>
-              <Link to="/faq" className='g'>FAQ</Link>
-            </li>
-            <li>
-              <Link to="/sustainibilty" className='g'>Sustainability</Link>
-              </li>
-            <li>
-            <Link to="/terms" className='g'>Terms of Use</Link>
-            </li>
-            <li>
-            <Link to="/policies" className='g'>Policies</Link>
-            </li>
-          </ul>
+              
+            
+              <Link to="/faq" className='g'> &gt;	FAQ</Link>
+            
+            
+              <Link to="/sustainibilty" className='g'> &gt;	Sustainability</Link>
+              
+            
+            <Link to="/terms" className='g'> &gt;	Terms of Use</Link>
+            
+            
+            <Link to="/policies" className='g'> &gt;	Policies</Link>
+            
         </div>
+
         < div className="f">
           <div className="o">Get in Touch</div>
           <div className="g">
@@ -51,12 +52,7 @@ export default function Footer() {
           <div className="g">
             <i className='fa-solid fa-envelope'>abc@mail</i>
           </div>
-          <div className="flex">
-          <a href="" className='fa-brands fa-instagram r'></a>
-          <a href="" className='fa-brands fa-facebook r'></a>
-          <a href="" className='fa-brands fa-twitter r'></a>
-          <a href="" className='fa-brands fa-linkedin r'></a>
-          </div>
+          
         </div>
       </div>
     </section>

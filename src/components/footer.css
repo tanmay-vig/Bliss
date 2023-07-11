@@ -19,10 +19,17 @@
     text-decoration: none;
     color: gray;
 }
+.g:hover{
+    margin-left: 8px;
+    transition: 1s;
+}
 .r{
     text-decoration: none;
     color: gray;
-    margin: 3px;
+}
+.r:hover{
+    margin-left: 8px;
+    transition: 1s;
 }
 @media (max-width : 800px)
 {
