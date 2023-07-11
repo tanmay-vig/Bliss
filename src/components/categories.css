@@ -28,5 +28,7 @@
 }
 @media (max-width:800px)
 {
-    
+    .r1{
+        margin-bottom: 7px;
+    }
 }
