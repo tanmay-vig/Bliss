@@ -1,0 +1,23 @@
+.p23{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.p11{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid orange;
+    margin: 5px 20px;
+}
+.p11 img{
+    height: 100px;
+    width: 100%;
+}
+@media (max-width : 800px)
+{
+    .p23{
+
+        flex-direction:column;
+    }
+}
