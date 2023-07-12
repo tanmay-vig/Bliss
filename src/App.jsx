@@ -48,7 +48,7 @@ function App() {
     <Route path='/projecter' element={< Projector />} />
     <Route path='/apple' element={< Apple />} />
     <Route path='/walkie' element={< Walkie />} />
-    <Route path='/mobile' element={< Tablet />} />
+    <Route path='/tablet' element={< Tablet />} />
     </Routes>
     <Footer />
     </>

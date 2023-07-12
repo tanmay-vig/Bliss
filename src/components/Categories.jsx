@@ -58,9 +58,9 @@ export default function Categories() {
             <img src={pic10} alt="pic" />
             <div>Apple</div>
         </Link>
-        <Link to="/mobile" className="r1">
+        <Link to="/tablet" className="r1">
             <img src={pic11} alt="pic" />
-            <div>Mobile Sets</div>
+            <div>Tablets</div>
         </Link>
       </div>
       
