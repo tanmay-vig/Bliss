@@ -9,6 +9,11 @@ import Laptops from './pages/products/Laptops'
 import Desktop from './pages/products/Desktop'
 import All from './pages/products/All'
 import Server from './pages/products/Server'
+import Cctv from './pages/products/Cctv'
+import Scanner from './pages/products/Scanner'
+import Projector from './pages/products/Projector'
+import Walkie from './pages/products/Walkie'
+import Apple from './pages/products/Apple'
 import Faq from "./pages/Faq"
 import { Route , Routes } from 'react-router-dom'
 import './App.css'
@@ -37,6 +42,11 @@ function App() {
     <Route path='/Desktop' element={<Desktop />} />
     <Route path='/Server' element={<Server />} />
     <Route path='/All' element={< All />} />
+    <Route path='/cctv' element={< Cctv />} />
+    <Route path='/scanner' element={< Scanner />} />
+    <Route path='/projecter' element={< Projector />} />
+    <Route path='/apple' element={< Apple />} />
+    <Route path='/Walkie' element={< Walkie />} />
     </Routes>
     <Footer />
     </>
