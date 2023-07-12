@@ -1,7 +1,7 @@
 import "./common.css";
-import pic1 from "./products/Walkie1.jpg";
-import pic2 from "./products/Walkie2.jpg";
-import pic3 from "./products/Walkie3.jpg";
+import pic1 from "./products/walkie1.jpg";
+import pic2 from "./products/walkie2.jpg";
+import pic3 from "./products/walkie3.jpg";
 
 export default function Walkie() {
     return (
