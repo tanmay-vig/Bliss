@@ -10,7 +10,7 @@ import Laptop from "../assets/laptop.jpg";
 export default function Products() {
     return (
         <section className="products-section">
-            <h2 className=" text-center m-5">Our Products:</h2>
+            <h2 className=" text-center m-5">Trending Products</h2>
             <div className="container">
                 <div className="products">
                     <img src={Desktop} alt="desktop" />

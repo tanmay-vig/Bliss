@@ -55,6 +55,10 @@ export default function Footer() {
           
         </div>
       </div>
+      <hr className='text-white'/>
+      <div className="text-center text-white">
+      © Copyright 2023 Bliss Info Systems. All rights reserved.
+      </div> <br />
     </section>
     </>
   )
