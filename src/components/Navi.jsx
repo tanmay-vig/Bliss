@@ -16,50 +16,50 @@ export default function Navi() {
           </Nav>
         <NavDropdown title="Products" id="basic-nav-dropdown" className='mx-5'>
           <NavDropdown.Item>
-            <Link to="/desktop">
+            <Link to="/desktop" className='links'>
               Desktop
             </Link>
             </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/laptops">
+            <Link to="/laptops" className='links'>
               Laptops
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/projector">
+            <Link to="/projector" className='links'>
               Projector
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/cctv">CCTV</Link>
+            <Link to="/cctv" className='links'>CCTV</Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/scanner">
+            <Link to="/scanner" className='links'>
               Scanner
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/tablet">
+            <Link to="/tablet" className='links'>
               Tablets
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/walkie"> 
+            <Link to="/walkie" className='links'> 
             Walkie Talkie
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/server">
+            <Link to="/server" className='links'>
               Server
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/all">
+            <Link to="/all" className='links'>
               All in One
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/apple">
+            <Link to="/apple" className='links'>
               Apple
             </Link>
           </NavDropdown.Item>
