@@ -15,6 +15,7 @@ import Projector from './pages/products/Projector'
 import Walkie from './pages/products/Walkie'
 import Apple from './pages/products/Apple'
 import Faq from "./pages/Faq"
+import Tablet from './pages/products/Tablet'
 import { Route , Routes } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -46,7 +47,8 @@ function App() {
     <Route path='/scanner' element={< Scanner />} />
     <Route path='/projecter' element={< Projector />} />
     <Route path='/apple' element={< Apple />} />
-    <Route path='/Walkie' element={< Walkie />} />
+    <Route path='/walkie' element={< Walkie />} />
+    <Route path='/mobile' element={< Tablet />} />
     </Routes>
     <Footer />
     </>
