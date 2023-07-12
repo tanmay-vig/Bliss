@@ -46,7 +46,7 @@ export default function Categories() {
             <img src={pic7} alt="pic" />
             <div>Scanner</div>
         </Link>
-        <Link to="/projecter" className="r1">
+        <Link to="/projector" className="r1">
             <img src={pic8} alt="pic" />
             <div>Projector</div>
         </Link>

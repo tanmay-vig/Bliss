@@ -14,15 +14,55 @@ export default function Navi() {
         <Nav className="mx-5">
           <Link  to="/about"  className="links">About Us</Link>
           </Nav>
-        <NavDropdown title="Products" id="basic-nav-dropdown" className='mx-5 links'>
-          <NavDropdown.Item>Desktops</NavDropdown.Item>
-          <NavDropdown.Item>Servers</NavDropdown.Item>
-          <NavDropdown.Item>Laptops</NavDropdown.Item>
-          <NavDropdown.Item>Seo</NavDropdown.Item>
-          <NavDropdown.Item>Marketing</NavDropdown.Item>
-          <NavDropdown.Item>Design Package</NavDropdown.Item>
-          <NavDropdown.Item>Mobile Sets</NavDropdown.Item>
-          <NavDropdown.Item>Wifi Routers</NavDropdown.Item>
+        <NavDropdown title="Products" id="basic-nav-dropdown" className='mx-5'>
+          <NavDropdown.Item>
+            <Link to="/desktop">
+              Desktop
+            </Link>
+            </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to="/laptops">
+              Laptops
+            </Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to="/projector">
+              Projector
+            </Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to="/cctv">CCTV</Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to="/scanner">
+              Scanner
+            </Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to="/tablet">
+              Tablets
+            </Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to="/walkie"> 
+            Walkie Talkie
+            </Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to="/server">
+              Server
+            </Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to="/all">
+              All in One
+            </Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to="/apple">
+              Apple
+            </Link>
+          </NavDropdown.Item>
         </NavDropdown>
         <Nav className="mx-5">
           <Link to="/csr" className='links'>CSR</Link></Nav>

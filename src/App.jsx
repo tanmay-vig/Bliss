@@ -45,7 +45,7 @@ function App() {
     <Route path='/All' element={< All />} />
     <Route path='/cctv' element={< Cctv />} />
     <Route path='/scanner' element={< Scanner />} />
-    <Route path='/projecter' element={< Projector />} />
+    <Route path='/projector' element={< Projector />} />
     <Route path='/apple' element={< Apple />} />
     <Route path='/walkie' element={< Walkie />} />
     <Route path='/tablet' element={< Tablet />} />
