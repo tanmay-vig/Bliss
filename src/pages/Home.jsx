@@ -3,7 +3,7 @@ import Rent from '../components/Rent'
 import Highlights from '../components/Highlights'
 import Clients from '../components/Clients'
 import Hero from '../components/Hero'
-import Products from '../components/Products'
+// import Products from '../components/Products'
 import Reviews from '../components/Reviews'
 import Categories from '../components/Categories'
 import './home.css'
@@ -17,7 +17,7 @@ export default function Home() {
     </a>
       <Hero />
       <Categories />
-    <Products />
+    {/* <Products /> */}
     <Choosing />
     <Rent />
     <Highlights />
