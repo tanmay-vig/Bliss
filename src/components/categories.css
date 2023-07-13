@@ -18,6 +18,11 @@
     border-radius: 20px;
     
 }
+.r1:hover{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    transition: 1s;
+}
 .r1 div{
     border-top: 1px solid rgb(231, 126, 6);
 }
