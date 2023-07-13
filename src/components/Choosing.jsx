@@ -12,8 +12,8 @@ export default function Choosing() {
     <>
     <br /> <br />
       <h2 className=' text-center m-5'>Why Choose Us ?</h2>
-      <p className='text-center'> We offer different products, such as laptops, 
-      desktops,  servers, and many other office IT products across India.</p> <br />
+      <h4 className='text-center'> We offer different products, such as laptops, 
+      desktops,  servers, and many other office IT products across India.</h4> <br />
       <div className='box'>
         <div className="ch">
             <img src={pic1} alt="pic1" />

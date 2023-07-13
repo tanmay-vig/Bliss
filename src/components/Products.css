@@ -1,5 +1,5 @@
 .products-section{
-    background-color:  #f0fde3;
+    background-color:  #fffdd0	;
     width : 100%;
 
 }
@@ -40,5 +40,8 @@
 {
     .trend-flex{
         flex-direction: column;
+    }
+    .trend{
+        margin:5px auto;
     }
 }

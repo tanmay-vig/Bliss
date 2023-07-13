@@ -9,7 +9,7 @@ import pic7 from "../assets/trend7.jpg";
 import pic8 from "../assets/trend8.jpg";
 export default function Products() {
     return (
-        <section className="products-section">
+        <section className="products-section"> <br />
             <h2 className=" text-center m-5">Trending Products</h2>
             <div className="trend-flex">
                 <div className="trend">

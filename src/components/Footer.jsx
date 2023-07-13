@@ -27,8 +27,8 @@ export default function Footer() {
             
               <Link to="/csr" className='g'> &gt;	CSR</Link>
             
-              <Link to="/blog" className='g'> &gt;	Blog
-              </Link>
+              {/* <Link to="/blog" className='g'> &gt;	Blog
+              </Link> */}
               
             
               <Link to="/faq" className='g'> &gt;	FAQ</Link>
