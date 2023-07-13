@@ -18,6 +18,10 @@
     height: 100px;
     width: 100%;
 }
+.ch p{
+    font-size: 18px;
+    padding: 2px;
+}
 @media (max-width : 800px) {
     .ch img{
         width: 100%;
