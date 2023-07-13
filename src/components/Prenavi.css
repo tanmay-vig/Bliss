@@ -25,12 +25,12 @@
         font-size: 25px;
         border-radius: 20px;
         margin-left: 20px;
-        
+        width: 100%;
     }
     .logo{
-        
+        display: block;
         width: 140px;
         height: 80px;
-        margin-left: 3px;
+        margin-left: 45px;
     }
 }
