@@ -1,5 +1,5 @@
 
-import Bliss from '../assets/logo.jpg'
+import Bliss from '../assets/logo.png'
 import './Prenavi.css'
 export default function Prenavi() {
   return (
