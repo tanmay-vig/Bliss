@@ -3,8 +3,42 @@
     width : 100%;
 
 }
+.trend-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.trend{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 5px 10px;
+    border: 1px solid #ffdbb7;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+.trend img{
+    border-radius: 20px;
+}
+.trend a{
+    text-decoration: none;
+    color: rgb(209, 89, 8);
+    margin: auto;
+    border: 1px solid rgb(250, 138, 10);
+    border-radius: 10px;
+    padding: 7px;
+}
+.trend:hover{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    transition: 1s;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.308);
+}
 @media (max-width : 800px)
 {
-    
+    .trend-flex{
+        flex-direction: column;
+    }
 }
