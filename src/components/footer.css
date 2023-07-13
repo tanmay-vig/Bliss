@@ -23,12 +23,14 @@
     margin-left: 8px;
     transition: 1s;
 }
-.r{
+.social a{
     text-decoration: none;
     color: gray;
+    margin-right: 7px;
 }
-.r:hover{
-    margin-left: 8px;
+.social a:hover{
+    margin-left:4px ;
+    margin-top: -4px;
     transition: 1s;
 }
 @media (max-width : 800px)
