@@ -41,5 +41,8 @@
     .ch img{
         width: 100%;
     }
-    
+    .yyyy{
+        padding: 5px 20px;
+        font-size: larger;
+    }
 }

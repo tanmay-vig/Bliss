@@ -8,7 +8,7 @@ export default function Rent() {
   return (
     <section className='rent'> <br />
     <h2 className="text-center">How To Rent Your Equipment?</h2>
-    <p className='text-center'> We are a professionally managed organization providing affordable 
+    <p className='text-center yyyy'> We are a professionally managed organization providing affordable 
     IT rental services across India. We provide top-quality rental solutions for all IT equipment 
     and IT services. You do not have to worry about traveling long distances to get your products.
      We assure to deliver our hassle free services to you at your doorstep.</p> <br />

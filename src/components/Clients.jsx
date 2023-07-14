@@ -41,7 +41,7 @@ export default function Clients() {
   return (
     <section className='clients'> <br />
       <h2 className="text-center">Our Clientele</h2> <br />
-      <div className="text-center">Our mission is to provide superior products at reasonable 
+      <div className="text-center rty3">Our mission is to provide superior products at reasonable 
       prices backed by professional support. Here is a list of our esteemed clientele.</div> <br />
       <div className='client-image'>
         <img src={pic1} alt="pic1" />

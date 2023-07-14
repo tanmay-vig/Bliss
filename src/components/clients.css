@@ -3,6 +3,11 @@
     flex-wrap: wrap;
     margin: 0px 20px;
     /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.rty3{
+    font-size: 20px;
 }
 .client-image img{
     height: 60px;
@@ -29,4 +34,8 @@
         height: 40px;
         width: 80px;
     } 
+    .client-image{
+        justify-content: center;
+        align-items: center;
+    }
 }
