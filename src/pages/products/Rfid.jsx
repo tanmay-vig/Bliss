@@ -1,17 +1,22 @@
 import "./common.css";
-import pic1 from "./products/walkie1.jpg";
-import pic2 from "./products/walkie2.jpg";
-import pic3 from "./products/walkie3.jpg";
+import pic1 from "./products/rfid1.png";
+import pic2 from "./products/rfid2.png";
+import pic3 from "./products/rfid3.png";
+import pic4 from "./products/rfid4.png";
+import pic5 from "./products/rfid5.png";
+import pic6 from "./products/rfid6.png";
+import pic7 from "./products/rfid7.png";
+import pic8 from "./products/rfid8.png";
+import pic9 from "./products/rfid9.png";
 
-export default function Walkie() {
+export default function Rfid() {
     return (
         <>
             <br />
             <h3 className="text-center m-5">
-                You can rent our resilient, dustproof, and waterproof
-                walkie-talkies with a high strength level for all your
-                communication purposes.
+                Rfid Sensors That satisfies all the needs of the firm
             </h3>
+            
             <div className="p23">
                 <div className="p11">
                     <img src={pic1} alt="pic1" /> <br />
@@ -30,6 +35,55 @@ export default function Walkie() {
                 </div>
                 <div className="p11">
                     <img src={pic3} alt="pic3" /> <br />
+                    <h4>Retevis H-777 2-Way</h4>
+                    <p>Handheld/ 400-470MHz/3KM-5KM/16 CH/1000mAh/0.36Kg/5W</p>
+                    <a href="">Request Quote</a>
+                </div>
+            </div>
+
+            <div className="p23">
+                <div className="p11">
+                    <img src={pic4} alt="pic1" /> <br />
+                    <h4> Baofeng UV 5R Dual band</h4>
+                    <p>
+                        Handheld/Digital/ 400-520MHz, 136-174MHz/ 1.5KM-3KM/
+                        1800mAh/0.46Kg/5W
+                    </p>
+                    <a href="">Request Quote</a>
+                </div>
+                <div className="p11">
+                    <img src={pic5} alt="pic2" /> <br />
+                    <h4>Motorola MS350R 35 mile</h4>
+                    <p>Handheld/22 CH, 8 repeaters/ 35mile/3 AA/0.22Kg/5W</p>
+                    <a href="">Request Quote</a>
+                </div>
+                <div className="p11">
+                    <img src={pic6} alt="pic3" /> <br />
+                    <h4>Retevis H-777 2-Way</h4>
+                    <p>Handheld/ 400-470MHz/3KM-5KM/16 CH/1000mAh/0.36Kg/5W</p>
+                    <a href="">Request Quote</a>
+                </div>
+            </div>
+
+
+            <div className="p23">
+                <div className="p11">
+                    <img src={pic7} alt="pic1" /> <br />
+                    <h4> Baofeng UV 5R Dual band</h4>
+                    <p>
+                        Handheld/Digital/ 400-520MHz, 136-174MHz/ 1.5KM-3KM/
+                        1800mAh/0.46Kg/5W
+                    </p>
+                    <a href="">Request Quote</a>
+                </div>
+                <div className="p11">
+                    <img src={pic8} alt="pic2" /> <br />
+                    <h4>Motorola MS350R 35 mile</h4>
+                    <p>Handheld/22 CH, 8 repeaters/ 35mile/3 AA/0.22Kg/5W</p>
+                    <a href="">Request Quote</a>
+                </div>
+                <div className="p11">
+                    <img src={pic9} alt="pic3" /> <br />
                     <h4>Retevis H-777 2-Way</h4>
                     <p>Handheld/ 400-470MHz/3KM-5KM/16 CH/1000mAh/0.36Kg/5W</p>
                     <a href="">Request Quote</a>

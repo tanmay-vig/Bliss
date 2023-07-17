@@ -12,7 +12,7 @@ import Server from './pages/products/Server'
 import Cctv from './pages/products/Cctv'
 import Scanner from './pages/products/Scanner'
 import Projector from './pages/products/Projector'
-import Walkie from './pages/products/Walkie'
+import Rfid from './pages/products/Rfid'
 import Apple from './pages/products/Apple'
 import Faq from "./pages/Faq"
 import Tablet from './pages/products/Tablet'
@@ -22,7 +22,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Sustainibility from './pages/Sustainibility'
 import Policies from './pages/Policies'
 import Terms from './pages/Terms'
-
+import Apps from './pages/products/Apps'
+import Website from './pages/products/Website'
 function App() {
   
 
@@ -47,8 +48,10 @@ function App() {
     <Route path='/scanner' element={< Scanner />} />
     <Route path='/projector' element={< Projector />} />
     <Route path='/apple' element={< Apple />} />
-    <Route path='/walkie' element={< Walkie />} />
+    <Route path='/rfid' element={< Rfid />} />
     <Route path='/tablet' element={< Tablet />} />
+    <Route path='/website' element= { <Website />} />
+    <Route path='/apps' element={ <Apps /> } />
     </Routes>
     <Footer />
     </>

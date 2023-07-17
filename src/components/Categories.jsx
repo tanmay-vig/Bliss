@@ -33,15 +33,15 @@ export default function Categories() {
             <img src={pic5} alt="pic" />
             <div>Desktops</div>
         </Link>
-        <Link to="/cctv" className="r1">
-            <img src={pic6} alt="pic" />
-            <div>CCTV</div>
-        </Link>
+        
         </div>
          <br />
         <div className="c">
         
-        
+        <Link to="/cctv" className="r1">
+            <img src={pic6} alt="pic" />
+            <div>CCTV</div>
+        </Link>
         <Link to="/scanner" className="r1">
             <img src={pic7} alt="pic" />
             <div>Scanner</div>
@@ -50,11 +50,15 @@ export default function Categories() {
             <img src={pic8} alt="pic" />
             <div>Projector</div>
         </Link>
-        <Link to="/walkie" className="r1">
+        <Link to="/rfid" className="r1">
             <img src={pic9} alt="pic" />
-            <div>Walkie Talkie</div>
+            <div>Rfid Sensor</div>
         </Link>
-        <Link to="/apple" className="r1">
+        
+      </div>
+      <br />
+      <div className="c">
+      <Link to="/apple" className="r1">
             <img src={pic10} alt="pic" />
             <div>Apple</div>
         </Link>
@@ -63,7 +67,6 @@ export default function Categories() {
             <div>Tablets</div>
         </Link>
       </div>
-      
     </section>
   )
 }
