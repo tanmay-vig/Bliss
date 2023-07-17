@@ -9,14 +9,15 @@
 .rty3{
     font-size: 20px;
 }
+
 .client-image img{
-    height: 60px;
-    width: 100px;
+    height: 80px;
+    width: 200px;
     margin: 4px;
     image-rendering: optimizeSpeed;
 }
 .client-image img:hover{
-    transform : scale(2);
+    transform : scale(1.5);
     box-shadow: 5px 5px 5px 5px rgba(54, 44, 44, 0.719);
     border-radius: 10px;
     transition: 2s;
