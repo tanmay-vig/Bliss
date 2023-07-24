@@ -9,6 +9,7 @@ import pic8 from '../assets2/asset 8.png'
 import pic9 from '../assets2/asset 9.png'
 import pic10 from '../assets2/asset 11.png'
 import pic11 from '../assets2/asset 15.png'
+import pic12 from '../assets2/SEO.png'
 import './categories.css'
 import {Link} from 'react-router-dom'
 export default function Categories() {
@@ -65,6 +66,10 @@ export default function Categories() {
         <Link to="/tablet" className="r1">
             <img src={pic11} alt="pic" />
             <div>Tablets</div>
+        </Link>
+        <Link to="/seo" className="r1">
+            <img src={pic12} alt="pic" />
+            <div>Seo </div>
         </Link>
       </div>
     </section>
