@@ -17,12 +17,12 @@ export default function Navi() {
         <NavDropdown title="Products" id="basic-nav-dropdown" className='mx-5'>
           <NavDropdown.Item>
             <Link to="/desktop" className='links'>
-              Desktop
+              DESKTOPS
             </Link>
             </NavDropdown.Item>
           <NavDropdown.Item>
             <Link to="/laptops" className='links'>
-              Laptops
+              LAPTOPS
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
@@ -45,7 +45,7 @@ export default function Navi() {
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link to="/walkie" className='links'> 
-            Walkie Talkie
+            Rfid Sensors
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
