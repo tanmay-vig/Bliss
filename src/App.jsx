@@ -22,7 +22,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Sustainibility from './pages/Sustainibility'
 import Policies from './pages/Policies'
 import Terms from './pages/Terms'
-import Apps from './pages/products/Apps'
+
 import Website from './pages/products/Website'
 import Seo from './pages/products/Seo'
 function App() {
@@ -53,7 +53,7 @@ function App() {
     <Route path='/tablet' element={< Tablet />} />
     <Route path='/website' element= { <Website />} />
     <Route path='/seo' element= { <Seo />} />
-    <Route path='/apps' element={ <Apps /> } />
+    
     </Routes>
     <Footer />
     </>
