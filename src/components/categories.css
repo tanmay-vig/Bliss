@@ -26,13 +26,14 @@
 }
 .r1 div{
     border-top: 1px solid rgb(231, 126, 6);
+    padding: 2px;
 }
 .r1 img{
     height: 70px;
     margin: 10px 30px;
     
 }
-@media (max-width:800px)
+@media (max-width:1000px)
 {
     .r1{
         margin-bottom: 7px;

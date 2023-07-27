@@ -74,7 +74,7 @@ export default function Categories() {
         </Link>
         <Link to="/website" className="r1">
             <img src={pic13} alt="pic" />
-            <div> Web-App Services </div>
+            <div> Web-App  Services </div>
         </Link>
       </div>
       <br />
