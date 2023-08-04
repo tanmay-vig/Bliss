@@ -1,11 +1,16 @@
 import {Navbar , Container , Nav , NavDropdown} from 'react-bootstrap'
 import './navi.css'
 import {Link} from 'react-router-dom'
+import pic from '../assets/logo.png'
 export default function Navi() {
   return (
     <>
     <Navbar expand="lg" className='n'> 
     <Container>
+      <Navbar.Brand> <Link to="/">
+        <img src={pic} alt="bliss" height={70}/> 
+      </Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mx-5">
@@ -27,7 +32,7 @@ export default function Navi() {
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link to="/projector" className='links'>
-              Projector
+              PROJECTOR
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
@@ -35,40 +40,34 @@ export default function Navi() {
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link to="/scanner" className='links'>
-              Scanner
+              SCANNER
             </Link>
           </NavDropdown.Item>
-          <NavDropdown.Item>
+          {/* <NavDropdown.Item>
             <Link to="/tablet" className='links'>
               Tablets
             </Link>
-          </NavDropdown.Item>
+          </NavDropdown.Item> */}
           <NavDropdown.Item>
             <Link to="/walkie" className='links'> 
-            Rfid Sensors
+            RFID SENSORS
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link to="/server" className='links'>
-              Server
+              SERVERS
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link to="/all" className='links'>
-              All in One
+              ALL IN ONE
             </Link>
           </NavDropdown.Item>
-          <NavDropdown.Item>
-            <Link to="/apple" className='links'>
-              Apple
-            </Link>
-          </NavDropdown.Item>
+          
         </NavDropdown>
         <Nav className="mx-5">
-          <Link to="/csr" className='links'>CSR</Link></Nav>
+          <Link to="/why" className='links'>Why bliss?</Link></Nav>
         <Nav.Link href="https://wa.me/9212697071" className='mx-5'>Contact Us</Nav.Link>
-        {/* <Nav className="mx-5">
-          <Link to="/blog" className='links'>Blog</Link></Nav> */}
         </Navbar.Collapse>
     </Container>
     </Navbar>
