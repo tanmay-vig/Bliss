@@ -6,9 +6,9 @@ import pic4 from '../assets2/rent4.png'
 
 export default function Rent() {
   return (
-    <section className='rent'> <br />
-    <h2 className="text-center">How To Rent Your Equipment?</h2>
-    <p className='text-center yyyy'> We are a professionally managed organization providing affordable 
+    <section className='rent'> <br /> <br />
+    <h2 className="text-center text-white">How To Rent Your Equipment?</h2>
+    <p className='text-center yyyy text-white'> We are a professionally managed organization providing affordable 
     IT rental services across India. We provide top-quality rental solutions for all IT equipment 
     and IT services. You do not have to worry about traveling long distances to get your products.
      We assure to deliver our hassle free services to you at your doorstep.</p> <br />

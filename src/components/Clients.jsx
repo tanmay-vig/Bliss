@@ -41,8 +41,8 @@ export default function Clients() {
         <section className="clients">
             {" "}
             <br />
-            <h2 className="text-center">Our Clientele</h2> <br />
-            <div className="text-center rty3">
+            <h2 className="text-center text-white">Our Clients</h2> <br />
+            <div className="text-center rty3 text-white">
                 Our mission is to provide superior products at reasonable prices
                 backed by professional support. Here is a list of our esteemed
                 clientele.
@@ -54,31 +54,25 @@ export default function Clients() {
                         <img src={pic1} alt="pic2" />
                         <img src={pic2} alt="pic2" />
                         <img src={pic3} alt="pic2" />
+                        <img src={pic4} alt="pic2" />
+                        <img src={pic5} alt="pic2" />
                     </div> <br /> <br /> <br /> 
                 </Carousel.Item>
                 <Carousel.Item> <br />
                     <div className="client-image">
-                        <img src={pic4} alt="pic2" />
-                        <img src={pic5} alt="pic2" />
+                        
+                        
                         <img src={pic6} alt="pic2" />
+                        <img src={pic7} alt="pic2" />
+                        <img src={pic8} alt="pic2" />
+                        <img src={pic9} alt="pic2" />
+                        <img src={pic10} alt="pic2" />
                     </div> <br /> <br />  <br /> 
                 </Carousel.Item>
                 <Carousel.Item> <br />
                     <div className="client-image">
-                        <img src={pic7} alt="pic2" />
-                        <img src={pic8} alt="pic2" />
-                        <img src={pic9} alt="pic2" />
-                    </div> <br /> <br /> <br /> 
-                </Carousel.Item>
-                <Carousel.Item> <br />
-                    <div className="client-image">
-                        <img src={pic10} alt="pic2" />
-                        <img src={pic11} alt="pic2" />
+                    <img src={pic11} alt="pic2" />
                         <img src={pic12} alt="pic2" />
-                    </div> <br /> <br /> <br /> 
-                </Carousel.Item>
-                <Carousel.Item> <br />
-                    <div className="client-image">
                         <img src={pic13} alt="pic2" />
                         <img src={pic14} alt="pic2" />
                         <img src={pic15} alt="pic2" />
@@ -86,60 +80,56 @@ export default function Clients() {
                 </Carousel.Item>
                 <Carousel.Item> <br />
                     <div className="client-image">
-                        <img src={pic16} alt="pic2" />
+                    <img src={pic16} alt="pic2" />
                         <img src={pic17} alt="pic2" />
                         <img src={pic18} alt="pic2" />
+                    
                     </div> <br /> <br /> <br /> 
                 </Carousel.Item>
+                
             </Carousel>
             <br /> <br />
             {/* Vendors */}
-            <h2 className="text-center">Our Vendors</h2> <br />
-            <div className="text-center rty3">Our trusted vendors</div> <br />
+            <h2 className="text-center text-white">Our Vendors</h2> <br />
+            <div className="text-center rty3 text-white">Our trusted vendors</div> <br />
             <Carousel variant="dark">
                 <Carousel.Item> <br />
                     <div className="client-image">
                         <img src={pic19} alt="pic2" />
                         <img src={pic20} alt="pic2" />
                         <img src={pic21} alt="pic2" />
-                    </div> <br /> <br />
-                </Carousel.Item>
-                <Carousel.Item> <br />
-                    <div className="client-image">
                         <img src={pic22} alt="pic2" />
                         <img src={pic23} alt="pic2" />
-                        <img src={pic24} alt="pic2" />
                     </div> <br /> <br />
                 </Carousel.Item>
                 <Carousel.Item> <br />
                     <div className="client-image">
+                        
+                        <img src={pic24} alt="pic2" />
                         <img src={pic25} alt="pic2" />
                         <img src={pic26} alt="pic2" />
                         <img src={pic27} alt="pic2" />
+                        
                     </div> <br /> <br />
                 </Carousel.Item>
                 <Carousel.Item> <br />
                     <div className="client-image">
-                        <img src={pic28} alt="pic2" />
-                        <img src={pic29} alt="pic2" />
+                    <img src={pic29} alt="pic2" />
                         <img src={pic30} alt="pic2" />
-                    </div> <br /> <br />
-                </Carousel.Item>
-                <Carousel.Item> <br />
-                    <div className="client-image">
                         <img src={pic31} alt="pic2" />
                         <img src={pic32} alt="pic2" />
-                        <img src={pic33} alt="pic2" />
+                        
                     </div> <br /> <br />
                 </Carousel.Item>
                 <Carousel.Item> <br />
                     <div className="client-image">
-                        <img src={pic34} alt="pic2" />
+                    <img src={pic34} alt="pic2" />
                         <img src={pic35} alt="pic2" />
+                        <img src={pic33} alt="pic2" />
+                        <img src={pic28} alt="pic2" />
                     </div> <br /> <br />
                 </Carousel.Item>
             </Carousel>
-            <div className="client-image"></div>
         </section>
     );
 }

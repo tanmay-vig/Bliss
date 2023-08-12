@@ -10,7 +10,7 @@ import pic8 from "../assets/trend8.jpg";
 export default function Products() {
     return (
         <section className="products-section"> <br />
-            <h2 className=" text-center m-5">Trending Products</h2>
+            <h1 className=" text-center m-5 font-extrabold text-white">Trending Products</h1>
             <div className="trend-flex">
                 <div className="trend">
                     <img src={pic1} alt="pic" />
@@ -89,6 +89,7 @@ export default function Products() {
                     <a href="">Request a Quote</a>
                 </div>
             </div>
+             <br />
         </section>
     );
 }
