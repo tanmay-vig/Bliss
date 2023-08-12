@@ -7,8 +7,8 @@ import pic6 from '../assets2/asset 6.png'
 import pic7 from '../assets2/asset 7.png'
 import pic8 from '../assets2/asset 8.png'
 import pic9 from '../assets2/asset 9.png'
-import pic10 from '../assets2/asset 11.png'
-import pic11 from '../assets2/asset 15.png'
+// import pic10 from '../assets2/asset 11.png'
+// import pic11 from '../assets2/asset 15.png'
 import pic12 from '../assets2/SEO.png'
 import pic13 from '../assets2/web.png'
 import './categories.css'
@@ -35,15 +35,15 @@ export default function Categories() {
             <img src={pic5} alt="pic" />
             <div>Desktops</div>
         </Link>
-        
-        </div>
-         <br />
-        <div className="c">
-        
         <Link to="/cctv" className="r1">
             <img src={pic6} alt="pic" />
             <div>CCTV</div>
         </Link>
+        </div>
+         <br />
+        <div className="c">
+        
+        
         <Link to="/scanner" className="r1">
             <img src={pic7} alt="pic" />
             <div>Scanner</div>
@@ -56,18 +56,6 @@ export default function Categories() {
             <img src={pic9} alt="pic" />
             <div>Rfid Sensor</div>
         </Link>
-        
-      </div>
-      <br />
-      <div className="c">
-      <Link to="/apple" className="r1">
-            <img src={pic10} alt="pic" />
-            <div>Apple</div>
-        </Link>
-        <Link to="/tablet" className="r1">
-            <img src={pic11} alt="pic" />
-            <div>Tablets</div>
-        </Link>
         <Link to="/seo" className="r1">
             <img src={pic12} alt="pic" />
             <div>Seo </div>
@@ -77,6 +65,18 @@ export default function Categories() {
             <div> Web-App  Services </div>
         </Link>
       </div>
+      <br />
+      {/* <div className="c">
+      <Link to="/apple" className="r1">
+            <img src={pic10} alt="pic" />
+            <div>Apple</div>
+        </Link>
+        <Link to="/tablet" className="r1">
+            <img src={pic11} alt="pic" />
+            <div>Tablets</div>
+        </Link>
+        
+      </div> */}
       <br />
     </section>
   )
